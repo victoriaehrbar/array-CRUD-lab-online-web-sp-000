@@ -3,10 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-pets = ["cat", "dog", "fish", "rabbit"]
+["cat", "dog", "fish", "rabbit"]
 end
 
 def add_element_to_end_of_array(array, element)
+pets = ["cat", "dog", "fish", "rabbit"]
 pets << "horse"
 puts pets.inspect
 end
