@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
 pets = ["cat", "dog", "fish", "rabbit"]
-pets << horse
+pets << "horse"
 puts pets.inspect
 end
 
